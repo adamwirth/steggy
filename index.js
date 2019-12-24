@@ -1,4 +1,4 @@
-const { PNG } = require('pngjs')
+require('pngjs')
 const { conceal } = require('./lib/conceal')
 const { reveal } = require('./lib/reveal')
 
